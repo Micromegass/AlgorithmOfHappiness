@@ -5,6 +5,12 @@ lista_consejos = ["Haz mas deporte", "Cambia tu vida", "Sonrie mas", "Busca algo
 
 
 def happiness():
+
+    print
+    user_name = raw_input("Hola, soy el el algoritmo de la felizidad. Cual es tu nombre?")
+    p = "Hola, {0}. Vamos a ver si eres feliz y si te podemos ayudar."
+    print(p.format(user_name))
+
     user_input = raw_input(40 * "-" + " Eres feliz?" + " Imprime 'si' or 'no'. Para terminar el programa imprime q " + 40 * "-" + "\n")
     response = user_input.lower()
 
